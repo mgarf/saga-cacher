@@ -1,0 +1,16 @@
+{
+  "name": "saga-cacher",
+  "version": "0.1.0",
+  "description": "Adds a caching layer to Saga",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael R. Garfinkel",
+  "license": "MIT",
+  "dependencies": {
+    "luxon": "^1.24.1",
+    "redux-saga": "^1.1.3"
+  },
+  "devDependencies": {}
+}
