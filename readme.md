@@ -4,6 +4,20 @@
 
 * TakeEvery takes two new parameters: Cache & CacheTime
 
+## How to use
+
+Rather than importing redux-saga effects:
+
+```javascript
+import { put, takeEvery, all, select } from 'redux-saga/effects';
+```
+
+Import the middleware instead:
+
+```javascript
+import { put, takeEvery, all, select } from '@mgarf/saga-cacher';
+```
+
 ## List Item Caching
 
 This middlware has the ability to do caching on items in a list. 
